@@ -1,0 +1,20 @@
+.event-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 17px 31px;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1441px) {
+  .event-title {
+    font-size: 3.7em;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .event-title {
+    font-size: 3.7em;
+  }
+}

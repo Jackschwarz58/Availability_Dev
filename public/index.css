@@ -1,0 +1,63 @@
+.hero-banner {
+  background-image: url("./assets/banner-1440-light.jpg");
+  height: 220px;
+  position: relative;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.navbar {
+  position: absolute;
+  z-index: 10;
+}
+
+.generic-session-wrapper {
+  margin-top: 220px;
+  margin-bottom: 10px;
+}
+
+.page-content-heading {
+  font-size: 4em;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.white-back-overlay {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.white-hover-overlay:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s;
+  border-radius: 8px;
+}
+
+.thinner-text {
+  font-weight: 200;
+}
+
+.simple-p-text {
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 1441px) {
+  .hero-banner {
+    background-image: url("./assets/banner-1920-light.jpg");
+    height: 255px;
+  }
+  .generic-session-wrapper {
+    margin-top: 255px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .hero-banner {
+    background-image: url("./assets/banner-lg-light.jpg");
+    height: 325px;
+  }
+  .generic-session-wrapper {
+    margin-top: 325px;
+  }
+}
