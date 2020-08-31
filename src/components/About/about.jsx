@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-100 text-center align-self-center generic-section-wrapper">
+    <div className="w-100 text-center align-self-center generic-section-wrapper pb-5 mb-4">
       <span className="page-content-heading">What is Availability?</span>
       <div className="text-left">
         <p className="pt-5 simple-p-text thinner-text">
@@ -27,7 +27,11 @@ const About = () => {
           was frustrated by the lack of a modern web application intended to
           help get a group of peoples schedules in order. This is still a work
           in progress and any feedback would be greatly appreciated. If you have
-          any feedback or see any issues, please contact me at .
+          any feedback or see any issues, please contact me at{" "}
+          <a href="mailto:jackdevfeedback@gmail.com">
+            JackDevFeedback@gmail.com
+          </a>
+          .
         </p>
       </div>
     </div>

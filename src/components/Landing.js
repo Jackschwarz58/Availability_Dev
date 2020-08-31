@@ -13,7 +13,7 @@ class Create extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header showBrand={false} pageTitle={"Availability"} />
         <div className="p-5 container">
           <About />
         </div>

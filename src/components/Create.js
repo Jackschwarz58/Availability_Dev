@@ -1,24 +1,28 @@
 import React, { Component } from "react";
-//import Banner from "./banner/banner";
+import Header from "./Header/header";
+import Calendar from "./Calendar/calendar";
 
 class Create extends Component {
   state = {};
 
-  //This checks to ensure user is logged in to access the dashboard view
   componentDidMount() {
     document.title = "Availability - Create Event";
   }
 
   render() {
-    return <div>Create Page</div>;
+    return (
+      <div>
+        <Header showBrand={true} pageTitle={"Create an Event"} />
+        <div className="container-fluid p-4">
+          <div className="row text-center m-5">
+            <div className="col-lg-6">Half</div>
+            <div className="col-lg-6">Half</div>
+          </div>
+        </div>
+        {/* <Calendar /> */}
+      </div>
+    );
   }
 }
-
-// //This is for Redux store access
-// const mapStateToProps = (state) => {
-//   return state;
-// };
-
-// export default connect(mapStateToProps)(DashboardCreate);
 
 export default Create;

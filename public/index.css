@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+}
+
 .hero-banner {
   background-image: url("./assets/banner-1440-light.jpg");
   height: 220px;

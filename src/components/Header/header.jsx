@@ -7,10 +7,10 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar showBrand={false} />
+        <Navbar showBrand={this.props.showBrand} />
         <div className="hero-banner d-flex">
           <div className="page-title w-100 text-center align-self-center">
-            Availability
+            {this.props.pageTitle}
           </div>
         </div>
       </div>

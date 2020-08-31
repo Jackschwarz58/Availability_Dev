@@ -6,15 +6,15 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light w-100 white-back-overlay">
         {this.props.showBrand ? (
-          <a class="navbar-brand ml-3" href="#3">
+          <a className="navbar-brand ml-3" href="#3">
             <img
-              src="./assets/logo.png"
+              src={require("./assets/brand2.png")}
               width="30"
               height="30"
               className="d-inline-block align-top"
               alt=""
             />
-            Availability
+            <span className="pl-1">Availability</span>
           </a>
         ) : (
           ""
@@ -37,6 +37,11 @@ class Navbar extends Component {
             <li className="nav-item white-hover-overlay">
               <a className="nav-link font-weight-bold text-dark" href="#3">
                 Create New Event
+              </a>
+            </li>
+            <li className="nav-item white-hover-overlay">
+              <a className="nav-link font-weight-bold text-dark" href="#3">
+                About
               </a>
             </li>
           </ul>

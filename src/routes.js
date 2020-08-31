@@ -8,7 +8,6 @@ import Footer from "./components/Footer/footer";
 class Routes extends Component {
   state = {};
 
-  //This checks to ensure user is logged in to access the dashboard view
   componentDidMount() {}
 
   render() {
@@ -17,6 +16,7 @@ class Routes extends Component {
         <Router>
           <Switch>
             <Route path="/" exact component={() => <Create />} />
+            <Route path="/create" exact component={() => <Create />} />
             <Route path="/event" exact component={() => <App />} />
             <Route path="/about" exact component={() => <Landing />} />
           </Switch>

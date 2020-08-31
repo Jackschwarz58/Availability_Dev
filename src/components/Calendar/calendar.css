@@ -1,0 +1,22 @@
+.DayPicker {
+  display: inline-block;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.DayPicker-Day {
+  border-radius: 0%;
+  font-size: 1.5rem;
+}
+
+.DayPicker-Day--selected {
+  background-color: rgba(202, 80, 80, 0.8) !important;
+}
+
+.DayPicker-Caption {
+  font-size: 1.5rem;
+}
+.DayPicker:not(.DayPicker--interactionDisabled)
+  .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  background-color: rgba(202, 80, 80, 0.1) !important;
+}
