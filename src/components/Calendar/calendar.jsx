@@ -32,7 +32,7 @@ class Calendar extends Component {
 
   render() {
     return (
-      <div className="p-5">
+      <div>
         <DayPicker
           selectedDays={this.state.selectedDays}
           onDayClick={this.handleDayClick}
